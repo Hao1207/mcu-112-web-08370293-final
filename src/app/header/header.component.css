@@ -1,0 +1,38 @@
+:host {
+  display: block;
+}
+
+nav {
+  display: flex;
+  font-family: Arial;
+  justify-content: space-between;
+  position: relative;
+  padding: 0.5rem 1rem;
+  max-width: 1130px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+a {
+  font-size: 1.5rem;
+  padding-top: 0;
+  margin-right: 2rem;
+  color: #5cb85c;
+}
+
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+  margin-top: 0;
+}
+
+li {
+  float: left;
+  padding-top: 0.425rem;
+  padding-bottom: 0.425rem;
+  color: rgba(0, 0, 0, 0.3);
+  margin-right: 16px;
+}
