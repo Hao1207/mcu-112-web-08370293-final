@@ -9,15 +9,26 @@
 
 <div class="container">
   <div class="row">
-    <div class="feed-toggle">
-      <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link">Your Feed</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active">Global Feed</a>
-        </li>
-      </ul>
+    <div class="col-md-9">
+      <div class="feed-toggle">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link">Your Feed</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active">Global Feed</a>
+          </li>
+          <li class="nav-item" hidden>
+            <a class="nav-link active"><i></i></a>
+          </li>
+        </ul>
+      </div>
+      <app-article-list></app-article-list>
+    </div>
+    <div>
+      <div>
+        <p>Popular Tags</p>
+      </div>
     </div>
   </div>
 </div>
