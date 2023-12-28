@@ -45,3 +45,7 @@ button {
   background-color: #5cb85c;
   border-color: #5cb85c;
 }
+
+.ion-heart:before {
+  content: "\f141";
+}
