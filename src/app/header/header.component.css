@@ -15,11 +15,15 @@ nav {
   padding-right: 15px;
 }
 
-a {
+nav > a {
   font-size: 1.5rem;
   padding-top: 0;
   margin-right: 2rem;
   color: #5cb85c;
+}
+
+a {
+  text-decoration: none;
 }
 
 ul {
@@ -33,6 +37,14 @@ li {
   float: left;
   padding-top: 0.425rem;
   padding-bottom: 0.425rem;
-  color: rgba(0, 0, 0, 0.3);
   margin-right: 16px;
+}
+
+li > a {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+li > a:focus,
+li > a:hover {
+  color: rgba(0, 0, 0, 0.6);
 }
