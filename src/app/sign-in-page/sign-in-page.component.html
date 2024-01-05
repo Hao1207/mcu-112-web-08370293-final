@@ -1,1 +1,36 @@
-<p>sign-in-page works!</p>
+<div class="auth-page">
+  <div class="container page">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <h1 class="text-xs-center">Sign in</h1>
+        <p class="text-xs-center">
+          <a>Need an account?</a>
+        </p>
+        <form novalidate class="ng-dirty ng-touched ng-valid ng-submitted">
+          <fieldset>
+            <fieldset class="form-group"></fieldset>
+            <fieldset class="form-group">
+              <input
+                formControlName="email"
+                placeholder="Email"
+                type="text"
+                class="form-control form-control-lg ng-dirty ng-touched ng-valid"
+              />
+            </fieldset>
+            <fieldset class="form-group">
+              <input
+                formControlName="password"
+                placeholder="Password"
+                type="password"
+                class="form-control form-control-lg ng-dirty ng-touched ng-valid"
+              />
+            </fieldset>
+            <button type="submit" class="btn btn-lg btn-primary pull-xs-right">
+              Sign in
+            </button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
