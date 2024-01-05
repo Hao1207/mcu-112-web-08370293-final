@@ -66,6 +66,12 @@ a {
   background-color: transparent;
 }
 
+a:hover {
+  color: #3d8b3d;
+  text-decoration: underline;
+  outline: 0;
+}
+
 ul {
   margin-top: 0;
   margin-bottom: 1rem;
