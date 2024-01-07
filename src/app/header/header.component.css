@@ -48,3 +48,7 @@ li > a:focus,
 li > a:hover {
   color: rgba(0, 0, 0, 0.6);
 }
+
+.ion-compose:before {
+  content: "\f12c";
+}
