@@ -1,1 +1,47 @@
-<p>article-editor-page works!</p>
+<div class="editor-page">
+  <div class="container page">
+    <div class="row">
+      <div class="col-md-10 offset-md-1 col-xs-12">
+        <form novalidate class="ng-pristine ng-valid ng-touched">
+          <fieldset>
+            <fieldset class="form-group">
+              <input
+                formcontrolname="title"
+                type="text"
+                placeholder="Article Title"
+                class="form-control form-control-lg ng-pristine ng-valid ng-touched"
+              />
+            </fieldset>
+            <fieldset class="form-group">
+              <input
+                formcontrolname="description"
+                type="text"
+                placeholder="What's this article about ?"
+                class="form-control ng-valid ng-pristine ng-untouched"
+              />
+            </fieldset>
+            <fieldset class="form-group">
+              <textarea
+                formcontrolname="body"
+                rows="8"
+                placeholder="Write your article (in markdown)"
+                class="form-control ng-valid ng-pristine ng-untouched"
+              ></textarea>
+            </fieldset>
+            <fieldset class="form-group">
+              <input
+                type="text"
+                placeholder="Enter tags"
+                class="form-control ng-valid ng-pristine ng-untouched"
+              />
+              <div class="tag-list"><!----></div>
+            </fieldset>
+            <button type="button" class="btn btn-lg pull-xs-right btn-primary">
+              Publish Article
+            </button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
